@@ -1,0 +1,330 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+.main{
+    background-image: url(Assets/Images/Background.jpg);
+    background-position: center center;
+    background-size: max(1300px,100vw);
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    
+}
+.main .box{
+    height: 100vh;
+    width: 100%;
+    opacity: 0.69; 
+    position: absolute;
+    top: 0; 
+    background-color: black;
+    
+}
+body{
+    background-color: black;
+}
+nav{
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 62px;
+   
+    
+    
+}
+nav img{
+    color: #8d1818;
+    width: 150px;
+    position: relative;
+    z-index: 10;
+    padding-top: 30px o;
+    
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+
+}
+
+.hero{
+    font-family: 'Martel Sans',sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+}
+
+.hero >:first-child{
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.hero >:nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.hero :nth-child(3){
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+.separation{
+    
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+.btn{
+    padding: 5px 25px 5px 25px;
+    background-color: rgba(255,255,255,0); 
+    border-radius: 4px;
+    font-weight: 400;
+    color: white;
+    border:1px solid rgba(255,255,255,0.4);
+    font-size: 15px;
+    /* background-color: white; */
+    /* gap: 7px; */
+}
+.btn-redsm{
+    margin-left: 15px;
+    padding: 7px 13px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: rgb(221, 32, 32);
+    color: white;
+    border-radius: 4px;
+}
+
+.btn-redth{
+    /* margin-top: 200px; */
+    margin-left: 3px;
+    padding: 10px 20px 15px 20px;
+    font-weight:600;
+    background-color: rgb(213, 20, 20);
+    color: white;
+    border-radius: 6px;
+    font-size:20px;
+    gap: 18px;
+}
+.main input{
+    padding: 16px 155px 16px 14px;
+    font-weight: 700;
+    background-color: rgba(255,255,255,0);
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 4px;
+    font-size: 15px;
+    align-items: center; 
+    justify-content: center;
+}
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.secImg {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    overflow: hidden;
+}
+
+.secImg #Image {
+    position: relative;
+    z-index: 2;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    top:50%;
+}
+#video-container{
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    overflow: hidden;
+}
+#video-container .background-video{
+    position: absolute;
+    top: 35%; 
+    left: 50%; 
+    min-width: 50%;
+    min-height: 50%;
+    width: 370px;
+    height: 280px;
+    z-index: 1;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+}
+#video-container #foreground-image{
+    position: relative;
+    z-index: 2;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    top:50%;
+    /* transform: translateY(-50%) */
+}
+.secImg #BGvideo {
+    position: absolute;
+    top: 35%; 
+    left: 50%; 
+    min-width: 50%;
+    min-height: 50%;
+    width: 420px;
+    height: 320px;
+    z-index: 1;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+
+ }  
+
+section.first > div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+    z-index: 10;
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+    z-index: 10;
+    margin-top: 20px;
+
+}
+.faq h2{
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+.faq{
+    background-color: black;
+    color: white;
+    padding: 34px;
+    position:relative;
+}
+.faqbox{
+    transition: all 1s ease-out;
+    display: flex;
+    background-color: rgb(36, 35, 35);
+    padding: 34px;
+    color: white;
+    z-index: 20; 
+    max-width: 70vw;
+    margin:10px auto;
+    justify-content: space-between; 
+    font-size: 24px;
+    cursor: pointer;
+}
+.faqbox svg{
+    /* color: white; */
+    filter: invert(1);
+    
+
+}
+.faqbox:hover{
+    /* transition: ; */
+    background-color: rgb(37,36,36);
+}
+
+footer{
+    color: white;
+    padding: 14px;
+    
+}
+footer span{
+    margin: 2px 30 vw;
+    text-align: center;
+    max-width: 60vw;
+    margin: auto;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: rgb(146, 142, 142);
+    position: relative;
+    padding: 100px;
+    gap: 23px;
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(177, 172, 172);
+}
+.footer-items{
+    font-size: 17px;
+    color: rgb(151, 147, 147);
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    margin-top: -1px;
+
+}
+footer .question{
+    position: relative;
+    padding: 34px 100px 0;
+    color:rgb(189, 185, 185);
+    margin-bottom: -65px; 
+    font-size: 17px;
+} 
+.end{
+
+    align-items: center; 
+    justify-items: center;
+    padding: 20px 370px ;
+    align-items: center;
+}
+
+.end-buttons input{
+
+    margin-top: 12px;
+    padding: 16px 170px 16px 14px;
+    font-weight: 700;
+    background-color: rgba(255,255,255,0);
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 4px;
+    font-size: 15px;
+    align-items: center; 
+    justify-content: center;
+     
+}
+.end-red{
+    margin-left: 0;
+    padding: 14px 14px ;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgb(221, 32, 32);
+    color: white;
+    border-radius: 4px;
+}
+.end span{
+    font-size: 20px;
+}
+
+
